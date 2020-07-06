@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ethers": "^5.0.3"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.7.3",
+    "serverless-offline-scheduler": "^0.3.8"
+  }
+}

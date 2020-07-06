@@ -1,0 +1,23 @@
+service: serverless-ethers
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: ap-southeast-1
+  timeout: 30
+  environment:
+    CHAIN_ID: 3 # 3 for Ropsten, 1 for Mainnet
+    DEFAULT_GAS_PRICE: 60000000000
+    MNEMONIC: '...'
+    FROM_ADDRESS: '...'
+    SLACK_HOOK_URL: 'https://hooks.slack.com/services/...'
+
+functions:
+  exec:
+    handler: functions/exec.handler    
+    events:
+      - schedule: rate(2 hours)
+      # - schedule: cron(0 12 * * ? *) # 12PM UTC
+
+plugins:
+  - serverless-offline
+  - serverless-offline-scheduler

@@ -1,5 +1,7 @@
 # serverless-ethers
 
+Learn more by reading the [blog post](https://yos.io/2020/07/04/serverless-smart-contract-automation/).
+
 ## Table of Contents
 
 |                                     | Description                                 | Stack                 |
@@ -61,7 +63,7 @@ serverless deploy
 
 ## Thanks
 
-**serverless-ethers** 💌 2020+, Yos Riady. Released under the [MIT] License.<br>
+**serverless-ethers** 2020+, Yos Riady. Released under the [MIT] License.<br>
 Authored and maintained by Yos Riady with help from contributors ([list][contributors]).
 
 > [yos.io](http://yos.io) &nbsp;&middot;&nbsp;

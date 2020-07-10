@@ -1,4 +1,8 @@
 {
+  "name": "serverless-ethers",
+  "version": "1.0.0",
+  "description": "Smart contract automation service built with the Serverless framework.",
+  "author": "Yos Riady <yosriady@gmail.com>",
   "dependencies": {
     "axios": "^0.19.2",
     "ethers": "^5.0.3"
@@ -6,5 +10,9 @@
   "devDependencies": {
     "serverless-offline": "^5.7.3",
     "serverless-offline-scheduler": "^0.3.8"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/yosriady/serverless-ethers/issues"
+  },
+  "homepage": "https://github.com/yosriady/serverless-ethers"
 }

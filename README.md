@@ -1,6 +1,6 @@
 # serverless-ethers
 
-Learn more by reading the [blog post](https://yos.io/2020/07/04/serverless-smart-contract-automation/).
+Learn more by reading the blog post: [Serverless Smart Contract Automation](https://yos.io/2020/07/04/serverless-smart-contract-automation/).
 
 ## Table of Contents
 

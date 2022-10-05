@@ -5,7 +5,7 @@
   "author": "Yos Riady <yosriady@gmail.com>",
   "dependencies": {
     "axios": "^0.27.2",
-    "ethers": "^5.7.0"
+    "ethers": "^5.7.1"
   },
   "devDependencies": {
     "serverless-offline": "^5.7.3",
